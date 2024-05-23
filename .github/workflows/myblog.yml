@@ -1,9 +1,9 @@
-name: myblog
+name: Build and deploy
 
 on:
   push:
     branches:
-      - myblog
+      - main
 
 jobs:
   build-and-deploy:
@@ -15,7 +15,6 @@ jobs:
       uses: AhsanAyaz/angular-deploy-gh-pages-actions@v1.4.0
       with:
         github_access_token: ${{ secrets.GITHUB_TOKEN }}
-        base_href: /myblog/
         angular_project_dir: myblog/
         angular_dist_build_folder: myblog/dist/myblog/browser
 
