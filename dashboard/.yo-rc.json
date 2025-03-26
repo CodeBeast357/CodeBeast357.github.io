@@ -1,0 +1,11 @@
+{
+  "generator-wow-react": {
+    "featureDirPath": "src/app/modules",
+    "featureGeneratedFolders": "services, components, hooks, types, utils, __tests__",
+    "componentGeneratedDirPath": "src/app/components",
+    "generateTestComponent": false,
+    "generateHelperComponent": false,
+    "generateStorybookComponent": false,
+    "storyFolder": "src/stories/"
+  }
+}
